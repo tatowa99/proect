@@ -37,3 +37,18 @@ class Shop extends Stock{
         return this.price
     }
 }
+const LG = new Televizor("D40", "IPS", "LG");
+let Polar = new Televizor("D60", "LED", "Polar");
+const HP = new Televizor("D40", "IPS", "HP");
+const DELL = new Televizor("D60", "LED", "DELL");
+const ASUS = new Televizor("D60", "Amoled", "Asus");
+const Toshiba = new Televizor("D40", "OLed", "Toshiba");
+const Samsung = new Televizor("D40", "IPS", "Samsung");
+const ASUS1 = new Televizor("D40", "IPS", "Asus");
+const DELL1 = new Televizor("D40", "Amoled", "DELL");
+const MI = new Televizor("D40", "IPS", "MI");
+
+let arr = new Array();
+let arr = [LG, Polar, HP, DELL, ASUS, Toshiba, Samsung, ASUS1, DELL1, MI];
+
+arr.sort([price]);

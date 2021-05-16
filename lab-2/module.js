@@ -19,3 +19,21 @@ class Monitor extends Televizor{
         return this.type
     }
 }
+class Stock extends Monitor{
+    constructor(type, model, price){
+        super(type, model)
+        this.price = price
+    }
+    getprice(){
+        return this.price
+    }
+}
+class Shop extends Stock{
+    constructor(type, model, price){
+        super(type, model, price)
+        this.price = 1.2*price
+    }
+    getprice(){
+        return this.price
+    }
+}

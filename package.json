@@ -1,0 +1,18 @@
+{
+  "name": "proect",
+  "version": "1.0.0",
+  "description": "proect programarea avansata",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "proect"
+  },
+  "keywords": [
+    "fuck_gays"
+  ],
+  "author": "Serghei Stinga",
+  "license": "ISC"
+}
